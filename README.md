@@ -37,4 +37,4 @@ Terraform also separates the planning phase from the execution phase, by using t
 
 `terraform destroy -var-file=dev.tfvars`
 
-`terraform clean`
+`rm -rf .terraform terraform.tfstate terraform.tfstate.backup`
