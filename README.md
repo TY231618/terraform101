@@ -68,5 +68,5 @@ Output values are like the return values of a Terraform resources/modules and ca
 ## TODO
 
 1. Create S3 resource
-2. use variables
+2. use variables for bucket name and tags
 3. output the ARN of the bucket
