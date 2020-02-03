@@ -64,3 +64,9 @@ A provider is responsible for understanding API interactions and exposing resour
 
 Output values are like the return values of a Terraform resources/modules and can be used elsewhere on creating other resources
 
+
+## TODO
+
+1. Create S3 resource
+2. use variables
+3. output the ARN of the bucket
