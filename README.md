@@ -29,6 +29,10 @@ And follow the commands, it will ask for your access key, secret key and a regio
 
 All other commands just press enter on
 
+### Terraform Init
+
+The `terraform init` command is used to initialize a working directory containing Terraform configuration files. This is the first command that should be run after writing a new Terraform configuration or cloning an existing one from version control. It is safe to run this command multiple times.
+
 ### Terraform Plan
 
 Terraform also separates the planning phase from the execution phase, by using the concept of an execution plan. By running terraform plan,the current state is refreshed and the configuration is consulted to generate an action plan. The plan includes all actions to be taken: which resources will be created, destroyed or modified. It can be inspected by operators to ensure it is exactly what is expected.
@@ -55,3 +59,8 @@ Destroying your infrastructure is a rare event in production environments. But i
 ## Providers
 
 A provider is responsible for understanding API interactions and exposing resources. Providers generally are an IaaS (e.g. Alibaba Cloud, AWS, GCP, Microsoft Azure, OpenStack), PaaS (e.g. Heroku), or SaaS services (e.g. Terraform Cloud, DNSimple, Cloudflare).
+
+## Outputs
+
+Output values are like the return values of a Terraform resources/modules and can be used elsewhere on creating other resources
+
